@@ -99,6 +99,7 @@ class RandomProxy(object):
             request.headers['Proxy-Authorization'] = basic_auth
         else:
             log.debug('Proxy user pass not found')
+            request.meta['proxy'] = proxy_address
         log.debug('Using proxy <%s>, %d proxies left' % (
                 proxy_address, len(self.proxies)))
 
