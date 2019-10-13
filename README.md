@@ -4,7 +4,7 @@ Random proxy middleware for Scrapy (http://scrapy.org/)
 Processes Scrapy requests using a random proxy from list to avoid IP ban and
 improve crawling speed.
 
-Get your proxy list from sites like http://www.hidemyass.com/ (copy-paste into text file
+Get your free proxy list from sites like http://free-proxy.cz/en/proxylist/country/all/https/ping/level3. (copy-paste into text file
 and reformat to http://host:port format)
 
 Install
@@ -12,7 +12,7 @@ Install
 
 The quick way:
 
-    pip install scrapy_proxies
+    pip install rotate_proxies
 
 Or checkout the source and run
 
