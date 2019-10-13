@@ -2,11 +2,11 @@
 import sys
 from distutils.core import setup
 
-setup(name='scrapy-proxies',
-        version='0.4',
+setup(name='rotate-proxies',
+        version='0.1',
         description='Scrapy Proxies: random proxy middleware for Scrapy',
-        author='Aivars Kalvans',
-        author_email='aivars.kalvans@gmail.com',
-        url='https://github.com/aivarsk/scrapy-proxies',
-        packages=['scrapy_proxies'],
+        author='Nabin Khadka',
+        author_email='nbnkhadka14@gmail.com',
+        url='https://github.com/nabinkhadka/scrapy-proxies',
+        packages=['rotate_proxies'],
         )
